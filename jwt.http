@@ -1,0 +1,19 @@
+POST http://localhost:3300/refresh-token
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjI4LCJ1c2VyIjoibGVkdXlraHVvbmdnY2RAZ21haWwuY29tIiwiaWF0IjoxNjY3NDg4Nzk3LCJleHAiOjE2Njc0OTIzOTd9.2e6M_tSvvAwsVNS1-SWHCQA83TLWNQPvgyRbau9d7O0"
+}
+
+###
+GET   http://localhost:3300/
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjI4LCJ1c2VyIjoyOCwiaWF0IjoxNjY3NDY5MTM3LCJleHAiOjE2Njc0NzI3Mzd9.VAZO_ELLGSRESC1fSULFpwgvZOleetxAJz1OV8COf3A
+
+###
+POST  http://localhost:3300/api/login
+Content-Type: application/json
+
+{
+    "account":"leduykhuonggcd@gmail.com",
+    "password":"khuong150799"
+}
